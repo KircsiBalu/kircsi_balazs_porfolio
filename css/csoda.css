@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+
+}
+body {
+	margin: 0px;
+	font-family: Arial, Helvetica;
+}
+.fejlec {
+	padding: 30px 100px 30px;
+	text-align: left;
+
+}
+.fejlec h1 {
+	font-size: 80px;
+	color:  #464646;
+	
+}
+.navigacio {
+	overflow: hidden;
+	background-color: darkgray;
+
+}
+.navigacio a {
+	float: left;
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 20px;
+	font-size: 25px;
+	cursor: pointer;
+}
+.blokk{
+	display:flex;
+	background-color: lightgrey;
+	flex-wrap: wrap;
+}
+.kep1 {
+	
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	padding-left: 90px;
+	flex: 40%;
+}
+.szovegblokk {
+	padding-right: 150px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	flex:60%;
+	line-height: 22px;
+}
+.lablec {
+	padding: 30px;
+	background-color: darkgrey;
+}
+.kepek{
+display: table;
+grid-template-columns: repeat(auto-fit,minmax(13.5rem,255px));
+grid-gap: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.kepracs {
+float: left;
+width: 33.33%;
+padding:10px;
+height: 240px;
+}
+.kepracs p {
+	padding-top: 12px;
+	color: white;
+	padding-left: 10px;
+}
+
